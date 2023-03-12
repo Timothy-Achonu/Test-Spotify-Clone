@@ -1,0 +1,71 @@
+.container {
+    padding: 20px 15px;
+    padding-top: 28px;
+    width: 25vw;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+.genres {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+
+.favArtistsWrapper {
+    margin-top: 20px;
+    width: 100%;
+}
+.favArtistsWrapper > h2 {
+    font-size: 1.4rem;
+}
+.girlSection {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 25px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 14px;
+}
+.girlSection > img {
+    width: 100%;
+    border-radius: 14px;
+}
+.girlSection > div {
+    display: flex;
+    margin-top: 13px;
+    align-items: flex-end;
+}
+.girlSection > div > div:first-of-type {
+    display: flex;
+    flex-direction: column;
+}
+.girlSection > div > div:first-of-type span {
+    font-size: 0.8rem;
+    color: #9f9ea1;
+}
+.girlSection > div > div:first-of-type span:first-of-type {
+    font-weight: 600;
+    color: black;
+}
+.girlSection > div > div:last-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    padding:0px 3px;
+    color: black;
+    border: black solid 2px;
+    border-radius: 5px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 0.6rem;
+    cursor: pointer;
+}

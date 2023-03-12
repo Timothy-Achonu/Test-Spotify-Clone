@@ -1,0 +1,16 @@
+.playlistsContainer {
+    height: 40vh;
+    max-height: 37vh;
+    overflow-y: scroll;
+}
+
+/* .playlistsContainer::-webkit-scrollbar {
+    width: 50px;
+  } */
+/* .playlistsContainer::-webkit-scrollbar-thumb{
+    background-color: yellow;
+
+} */
+/* div::-webkit-scrollbar {
+  width: 1em;
+} */

@@ -1,0 +1,128 @@
+.container {
+    background-color: white;
+    height: 100vh;
+    padding: 15px 0px;
+    padding-right: 0;
+    /* width: 25%; */
+    width: 25vw;
+}
+
+.topMenuIcon {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-left: 25px;
+}
+
+.BeeMusicWrapper{
+    color: #ffc56f;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 0 25px;
+}
+.BeeMusicWrapper > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BeeMusicWrapper > span > span:last-child {
+    color: black;
+}
+ul {
+    padding: 0 25px;
+    padding-right: 0;
+}
+ul li {
+    list-style: none;
+    color: #9f9ea1;
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    /* background-color: green; */
+}
+ul li > a {
+    display: flex;
+    color: #9f9ea1;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+.listsHeading {
+    color: #9f9ea1;
+    font-size: 0.9rem;
+    padding: 0 15px;
+    margin-left: 25px;
+}
+ul li > a > div {
+    padding: 14px 15px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    /* background-color: black; */
+}
+ul li > a.active > div  {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+ul li > a > div > span {
+    display: flex;
+    align-items: center;
+}
+ul li > a > div > span:first-child {
+    margin-right: 10px;
+    color: "#9f9ea1";
+    background-color: "white";
+}
+ul li > a > div > span:first-child > * {
+    color: "red";
+    background-color: "red";
+    font-size: 1.2rem;
+}
+
+/* 
+
+ul li:hover {
+    border-right: 4px solid black;
+    cursor: pointer;
+}
+
+
+
+
+
+ */
+
+
+.userInfoWrapper {
+    /* margin-top: 40px; */
+    border-top: #eee 3px solid;
+    padding: 25px 20px;
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+}
+.userInfoWrapper > div:first-of-type {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.userInfoWrapper > div:first-of-type > figure {
+  margin-right: 6px;
+  width: 60px;
+  height: 60px;
+}
+.userInfoWrapper > div:first-of-type > figure > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.userInfoWrapper > div:last-of-type {
+    margin-left: auto;
+}

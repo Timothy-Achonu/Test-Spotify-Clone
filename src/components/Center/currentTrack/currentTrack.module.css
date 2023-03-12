@@ -1,0 +1,59 @@
+.currentlyPlaying {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 14px;
+    height: 100px;
+    position: fixed;
+    justify-content: center;
+    border-radius: 20px;
+    width: 45vw;
+    margin: 20px 0;
+    left: 27.5vw;
+    right: 27.5vw;
+    bottom: 0px;
+    z-index: 2;
+    margin-right: 20px;
+}
+.currentlyPlaying > div:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
+}
+.songArtistsWrapper {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.songArtistsWrapper > div {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    width: 100px;
+}
+.songArtistsWrapper div > span {
+    padding-inline: 5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* width: 60%; */
+}
+.songArtistsWrapper div > span:first-of-type {
+    font-weight: bold;
+}
+ .songArtistsWrapper figure {
+    margin-left: 13px;
+    font-size: 1.5rem;
+}
+
+.currentlyPlaying > div:last-of-type {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+

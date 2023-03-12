@@ -1,0 +1,73 @@
+.playlist {
+  width: 75vw;
+  padding: 20px 30px;
+  padding-left: 0;
+}
+.imageSongNameWrapper {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+  padding-left: 20px;
+}
+.imageSongNameWrapper figure {
+  height: 200px;
+  width: 200px;
+  margin-right: 30px;
+}
+.imageSongNameWrapper figure img {
+  height: 100%;
+  width: 100%;
+}
+.imageSongNameWrapper > div {
+  display: flex;
+  flex-direction: column;
+}
+.imageSongNameWrapper > div h2 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.playlist .table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 31vh;
+  max-height: 31vh;
+  overflow-y: scroll;
+  /* background-color: yellow; */
+}
+.playlist .table > div {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  /* justify-content: space-between; */
+  padding-left: 20px;
+  width: 100%;
+}
+.playlist .table > div > div {
+  margin-right: 10px;
+  /* background-color: red; */
+  text-align: center;
+  padding: 0;
+}
+.playlist .rowHead {
+  font-weight: 100;
+  color: #9f9ea1;
+}
+
+.playlist .rowHead > div:nth-child(1) {
+  width: 10%;
+}
+.playlist .rowHead > div:nth-child(2) {
+  width: 25%;
+}
+.playlist .rowHead > div:nth-child(3) {
+  width: 25%;
+}
+.playlist .rowHead > div:nth-child(4) {
+  width: 10%;
+}
+.playlist .rowHead > div:nth-child(5) {
+  width: 30%;
+}

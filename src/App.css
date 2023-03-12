@@ -1,0 +1,17 @@
+.App {
+    display: flex;
+    width: 100%;
+}
+.active {
+    border-right: 4px solid black;
+}
+a.active > div  {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+
+/* * {
+    border: 1px solid red;
+} */

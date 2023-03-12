@@ -1,0 +1,25 @@
+.favArtist {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.favArtist > img {
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+}
+.favArtist > div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+.favArtist > div:first-of-type > span {
+    font-weight: 600;
+}
+.favArtist > div:first-of-type > span:last-of-type {
+    color: #9f9ea1;
+}
+.favArtist > div:last-of-type {
+    margin-left: auto;
+    font-weight: bold;
+}
