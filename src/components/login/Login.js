@@ -7,9 +7,10 @@ export default function Login() {
   function handleClick() {
     //a2804cd62b9942f1822cca36028762ed
     //fe301ef56fd045d8a5e2f12ad62b81e9
-    const clientId = "a2804cd62b9942f1822cca36028762ed";
+    const clientId = "fe301ef56fd045d8a5e2f12ad62b81e9";
     // const redirectUrl = "http://localhost:3000/";
     const redirectUrl = window.location.href;
+    window.localStorage.setItem('redirectUrl', redirectUrl)
     const apiUrl = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-email",
